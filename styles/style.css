@@ -64,14 +64,14 @@
 
 .b_main_container {
   width: 80%;
-  
+
   margin: 2vh auto 2vh auto;
 }
 
 /* slider styles */
 .container_main_info--slider {
   width: 50vh;
-  
+
 }
 
 .container_main_info--slider {
@@ -113,4 +113,3 @@
 .dot:hover {
   background-color: #717171;
 }
-
