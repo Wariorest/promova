@@ -71,29 +71,26 @@
 /* slider styles */
 .container_main_info--slider {
   width: 50vh;
-
+  height: 45vh;
+  text-align: center;
+  background-color: #ddd9d04f;
+  border-radius: 15px;
 }
 
-.container_main_info--slider {
-  position: relative;
-  margin-top: 10vh;
-  background: #f1f1f1f1;
-}
 
 /* Slides */
 .container_main_info--slider--content {
   display: none;
   padding: 10vh;
-  height: 16vh;
-  font-size: 26px;
+  height: 15vh;
+  font-size: 16px;
   text-align: center;
 }
 
 /* The dot/bullet/indicator container */
 .dot-container {
   text-align: center;
-  /*padding: 20px;
-  background: #ddd;*/
+
 }
 
 /* The dots/bullets/indicators */

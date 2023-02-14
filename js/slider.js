@@ -31,7 +31,7 @@ const nextSlide = () => {
     let sliderCounter = 0;
     setInterval(() => {
         sliderCounter++;
-        console.log(sliderCounter)
+        //console.log(sliderCounter)
         if (sliderCounter > 0 && sliderCounter < 5) {
             currentSlide(sliderCounter)
         } else {
