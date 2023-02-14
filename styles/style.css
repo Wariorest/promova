@@ -123,10 +123,11 @@
   margin-top: 10vh;
 }
 
-.btn_book_meeting:hover{
+.btn_book_meeting:hover {
   cursor: pointer;
 }
-.btn_book_meeting:active{
+
+.btn_book_meeting:active {
   background-color: #820404;
 }
 
@@ -135,4 +136,33 @@
   right: 20%;
   top: 20%;
   height: 50vh;
+}
+
+.b_our_numbers_container {
+  margin-top: 5vh;
+}
+
+/* runing text */
+.runing_text_container{
+  padding: 2px;
+  background: #EDB83D;
+  border-radius: 3px;
+}
+.smm_l_runing_text{
+  
+  color:#fff;
+ 
+  
+  animation: text 5s infinite linear;
+  
+  white-space: nowrap;
+}
+@keyframes text {
+  0%{
+    transform: translate(0, 0);
+  }
+  
+  100%{
+    transform: translate(-100%, 0);
+  }
 }
