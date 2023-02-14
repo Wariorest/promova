@@ -71,10 +71,11 @@
 /* slider styles */
 .container_main_info--slider {
   width: 50vh;
-  height: 45vh;
+  height: 30vh;
   text-align: center;
   background-color: #ddd9d04f;
   border-radius: 15px;
+  margin-top: 10vh;
 }
 
 
@@ -82,7 +83,7 @@
 .container_main_info--slider--content {
   display: none;
   padding: 10vh;
-  height: 15vh;
+  height: 5vh;
   font-size: 16px;
   text-align: center;
 }
@@ -109,4 +110,29 @@
 .active,
 .dot:hover {
   background-color: #717171;
+}
+
+.btn_book_meeting {
+  background-color: #770000;
+  color: #FFFFFF;
+  text-align: center;
+  width: 20vw;
+  padding: 1.25vw;
+  border-radius: 10px;
+  user-select: none;
+  margin-top: 10vh;
+}
+
+.btn_book_meeting:hover{
+  cursor: pointer;
+}
+.btn_book_meeting:active{
+  background-color: #820404;
+}
+
+.b_promo_hand_w_phone {
+  position: absolute;
+  right: 20%;
+  top: 20%;
+  height: 50vh;
 }
