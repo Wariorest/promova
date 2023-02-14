@@ -25,7 +25,7 @@
 .logo-text {
   margin-top: 3.5vh;
   margin-left: 1vh;
-
+  user-select: none;
   font-size: 18px;
 }
 
